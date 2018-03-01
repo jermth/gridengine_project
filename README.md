@@ -28,9 +28,9 @@ This project requires the following:
   1. A license to use Univa GridEngine from [Univa Corporation](http://www.univa.com/products/).
   
   2. The Univa GridEngine installation binaries.
-a. Download the binaries from Univa Corporation and place them in the `./blobs/` directory.
-b. Download the `${version}-bin-lx-amd64.tar.gz`, `${version}-bin-ulx-amd64.tar.gz`, `${version}-common.tar.gz` files. For example, if the Univa version you are using is 8.5.0, download the following files: `ge-8.5.0-bin-lx-amd64.tar.gz`, `ge-8.5.0-bin-ulx-amd64.tar.gz`, and `ge-8.5.0-common.tar.gz`
-c. If the version is not 8.5.0 (the project default), then update the version number in the Files list in `./project.ini` and in the cluster template `./templates/gridengine_template.txt`
+    a. Download the binaries from Univa Corporation and place them in the `./blobs/` directory.
+    b. Download the `${version}-bin-lx-amd64.tar.gz`, `${version}-bin-ulx-amd64.tar.gz`, `${version}-common.tar.gz` files. For example, if the Univa version you are using is 8.5.0, download the following files: `ge-8.5.0-bin-lx-amd64.tar.gz`, `ge-8.5.0-bin-ulx-amd64.tar.gz`, and `ge-8.5.0-common.tar.gz`
+    c. If the version is not 8.5.0 (the project default), then update the version number in the Files list in `./project.ini` and in the cluster template `./templates/gridengine_template.txt`
      
   3. CycleCloud must be installed and running.
 

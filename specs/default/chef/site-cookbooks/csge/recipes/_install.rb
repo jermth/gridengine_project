@@ -12,7 +12,7 @@ sgeroot = node[:gridengine][:root]
 
 
 sgebins = { 'sge' => %w[64 common] }
-sgebins.default = %w[bin-lx-amd64 bin-ulx-amd64 common] 
+sgebins.default = %w[bin-lx-amd64 common]
 
 sgeext = node[:gridengine][:package_extension]
 
